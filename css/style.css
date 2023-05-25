@@ -1,5 +1,5 @@
 body {
-    font-family: cursive;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     /* background-image: url('../images/AutumnBackground.jpg');
@@ -10,6 +10,7 @@ body {
 }
 
 .header {
+    font-family: "Lucida Handwriting", cursive;
     background-color: #dc793e;
     color: #fff;
     padding: 10px;
@@ -29,6 +30,7 @@ body {
 }
 
 .navigation ul li a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none;
     color: #333;
 }
@@ -60,6 +62,7 @@ body {
 
 .information h2 {
     color: #aa4a44;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .information li::marker {
