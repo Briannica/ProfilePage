@@ -1,0 +1,98 @@
+body {
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+    /* background-image: url('../images/AutumnBackground.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+    background-color: #f3d1bd;
+}
+
+.header {
+    background-color: #dc793e;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 5%;
+    background-color: #f4f4f4;
+}
+
+.navigation ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.navigation ul li a:active{
+    color: #dc793e;
+}
+
+.navigation ul li a:visited{
+    color: black;
+}
+
+.navigation ul li a:hover {
+    color: #dc793e;
+}
+
+.information {
+    display: block;
+    margin: auto;
+    width: 55%;
+    height: fit-content;
+    background-color: #fef3de;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 25px;
+    padding-left: 30px;
+}
+
+.information h2 {
+    color: #aa4a44;
+}
+
+.information li::marker {
+    content: "\01F341  ";
+}
+
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.links a {
+    text-decoration: none;
+}
+
+a:active{
+    color: #dc793e;
+}
+
+.links a:visited{
+    color: black;
+}
+
+.links a:hover {
+    color: #dc793e;
+}
+
+.ellie-pic {
+    border-radius: 25px;
+}
